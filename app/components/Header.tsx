@@ -8,6 +8,7 @@ import useHeaderAtTop from "../hooks/useHeaderAtTop";
 import headerLinksData from "../data/header-links-data";
 import { HeaderLinkProps } from "../types/header";
 import pagesToExclude from "../utils/pagesToExclude";
+import Image from "next/image";
 
 const Header = () => {
   const pathname = usePathname();
@@ -36,10 +37,11 @@ const Header = () => {
           </div>
           <div className="flex items-center w-full justify-center lg:justify-between gap-8">
             <Link href="/">
-              <img
+              <Image
                 src="/images/insta-somm-logo.webp"
                 alt="Insta-Somma"
                 className="w-80 h-auto xl:w-96"
+                priority={true}
               />
             </Link>
             <div className="hidden lg:flex items-center gap-6">

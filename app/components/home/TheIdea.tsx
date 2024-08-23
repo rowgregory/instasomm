@@ -20,17 +20,17 @@ const TheIdea = () => {
         <p className="text-sm text-[#6f6f6f] mb-5 leading-6">
           Anyone remember Garanimals, where little kids got dressed by matching
           the animal on the shirt to the animal on their pants, alligator to
-          alligator, lion to lion? It’s kind of like that!
+          alligator, lion to lion? It&apos;s kind of like that!
         </p>
         <p className="text-sm text-[#6f6f6f] mb-5 leading-6">
           So, just like the children did not have to know anything about fashion
-          to get dressed, you really don’t have to know anything about food and
-          wine to pair them. All you have to know is if a food and a wine are in
-          the same color profile, they go together. Then, you just look at the
-          number code of the wine, from 1 – 4, to know exactly which foods in
-          that color profile will work best with a specific wine. There are so
-          many choices, you are free to explore and choose what works best for
-          you. You can be your own Somm!
+          to get dressed, you really don&apos;t have to know anything about food
+          and wine to pair them. All you have to know is if a food and a wine
+          are in the same color profile, they go together. Then, you just look
+          at the number code of the wine, from 1 &ndash; 4, to know exactly
+          which foods in that color profile will work best with a specific wine.
+          There are so many choices, you are free to explore and choose what
+          works best for you. You can be your own Somm!
         </p>
       </div>
     </div>

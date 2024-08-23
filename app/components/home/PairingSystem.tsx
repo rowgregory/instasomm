@@ -14,7 +14,7 @@ const PairingSystem = () => {
               Pairing System
             </p>
             <p className="text-4xl lg:text-5xl font-light mb-10 font-LCD text-[#1c1c1c]">
-              Vernaccia's Bright Notes with Prosciutto and Arugula Pizza
+              Vernaccia&apos;s Bright Notes with Prosciutto and Arugula Pizza
             </p>
             <p className="mb-5 text-[#a6a6a6] text-sm leading-6">
               For example, Prosciutto and arugula pizza with pesto would match
@@ -41,10 +41,10 @@ const PairingSystem = () => {
             </p>
             <p className="mb-5 text-[#a6a6a6] text-sm leading-6">
               "Panizzi was born with the first vintage of this wine, in 1989.
-              Produced from grapes originating from the totality of our winery’s
-              vineyards (Larniano, Montagnana, Santa Margherita, and Lazzeretto)
-              Vernaccia Panizzi is the modern interpretation of an ancient wine
-              full of history.” (winemakers notes)
+              Produced from grapes originating from the totality of our
+              winery&apos;s vineyards (Larniano, Montagnana, Santa Margherita,
+              and Lazzeretto) Vernaccia Panizzi is the modern interpretation of
+              an ancient wine full of history.” (winemakers notes)
             </p>
           </div>
           <div className="col-span-12 md:col-span-6 relative flex justify-center gap-5 lg:gap-10">
