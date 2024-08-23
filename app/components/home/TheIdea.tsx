@@ -13,7 +13,9 @@ const TheIdea = () => {
         />
       </div>
       <div className="col-span-12 md:col-span-6">
-        <p className="text-sm text-[#847c67] uppercase mb-3">Here's The Idea</p>
+        <p className="text-sm text-[#847c67] uppercase mb-3">
+          Here&apos;s The Idea
+        </p>
         <p className="text-4xl lg:text-5xl font-light mb-10 font-LCD text-white">
           Foods and Wines Have Matching Codes
         </p>

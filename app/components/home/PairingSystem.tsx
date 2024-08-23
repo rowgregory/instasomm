@@ -23,28 +23,29 @@ const PairingSystem = () => {
             </p>
             <p className="mb-5 text-[#a6a6a6] text-sm leading-6">
               So I decide I want a white wine with my arugula, pesto and
-              prosciutto pizza. I choose “Vernaccia.” Vernaccia is a white wine
-              grape found in many Italian wines. The Vernaccia grape is most
-              commonly associated with the wine Vernaccia di San Gimignano from
-              the town of San Gimignano in Tuscany. It is one of the top wines
-              from Tuscany, and the region’s first white wine with a DOCG
-              (Denominazione di Origine Controllata e Garantita classification.)
-              It is bright, citrusy, clean and crisp, with distinct notes of
-              fennel and basil (which is why it works so well with pesto!)
+              prosciutto pizza. I choose &quot;Vernaccia.&quot; Vernaccia is a
+              white wine grape found in many Italian wines. The Vernaccia grape
+              is most commonly associated with the wine Vernaccia di San
+              Gimignano from the town of San Gimignano in Tuscany. It is one of
+              the top wines from Tuscany, and the region&apos;s first white wine
+              with a DOCG (Denominazione di Origine Controllata e Garantita
+              classification.) It is bright, citrusy, clean and crisp, with
+              distinct notes of fennel and basil (which is why it works so well
+              with pesto!)
             </p>
             <p className="mb-5 text-[#a6a6a6] text-sm leading-6">
               Floral and herbal notes, citrus fruit, and a dry, crisp quality
-              dominate the flavor of Vernaccia wine. It’s a medium-bodied wine
-              with good acidity and a notable finish of flinty minerals or
+              dominate the flavor of Vernaccia wine. It&apos;s a medium-bodied
+              wine with good acidity and a notable finish of flinty minerals or
               almonds, coming from the sand and clay soils of its environment
               (terroir).
             </p>
             <p className="mb-5 text-[#a6a6a6] text-sm leading-6">
-              "Panizzi was born with the first vintage of this wine, in 1989.
-              Produced from grapes originating from the totality of our
+              &quot;Panizzi was born with the first vintage of this wine, in
+              1989. Produced from grapes originating from the totality of our
               winery&apos;s vineyards (Larniano, Montagnana, Santa Margherita,
               and Lazzeretto) Vernaccia Panizzi is the modern interpretation of
-              an ancient wine full of history.” (winemakers notes)
+              an ancient wine full of history.&quot; (winemakers notes)
             </p>
           </div>
           <div className="col-span-12 md:col-span-6 relative flex justify-center gap-5 lg:gap-10">
