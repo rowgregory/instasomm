@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./animations.css";
 import PageWrapper from "./page-wrapper";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <PageWrapper>{children}</PageWrapper>
+        <Suspense fallback={<></>}>
+          <PageWrapper>{children}</PageWrapper>
+        </Suspense>
       </body>
     </html>
   );
