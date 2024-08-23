@@ -1,0 +1,127 @@
+@keyframes scaleIn {
+  from {
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.scale-in {
+  animation: scaleIn 600ms ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown 600ms ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp 600ms ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 200ms ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.spinner {
+  transition: opacity 0.6s ease-out;
+  opacity: 1; /* Initially visible */
+}
+
+.spinner.fade-out {
+  opacity: 0; /* Hidden state for fade-out */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Continuous floating up-and-down animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Apply the initial animation */
+.float {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 200ms ease-out forwards, float 3s ease-in-out infinite 1s;
+}
+
+.text-fade-in-up {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 200ms ease-out forwards;
+}
+
+.link-visible-2 {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  animation: fadeInUp 200ms ease-out forwards;
+  animation-delay: 200ms;
+  transform: translateY(150px);
+}
+.link-visible-3 {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  animation: fadeInUp 200ms ease-out forwards;
+  animation-delay: 300ms;
+  transform: translateY(150px);
+}
